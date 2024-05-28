@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Poppins } from 'next/font/google';
+import { Header } from "@/components/Header";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -12,8 +13,9 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Dheeraj Portfolio",
-  description: "Build on framer motion & Next js",
+  title: "GHA Media | Your Vision Our Edit ",
+  description: "Your Vision Our Edit",
+  keywords:""
 };
 
 export default function RootLayout({
@@ -30,7 +32,11 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <main className="bg-black-100 antialiased">
+            <Header />
             {children}
+            </main>
+            
           </ThemeProvider>
       </body>
     </html>

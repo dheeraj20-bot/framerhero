@@ -87,3 +87,13 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+
+.calendly-inline-widget iframe {
+  background-color: #000319; /* Ensure the iframe background color is set */
+  height: 100%; /* Ensure the iframe takes the full height of its container */
+  width: 100%; /* Ensure the iframe takes the full width of its container */
+  border: none; /* Remove any default border */
+  overflow: hidden;
+}
+
