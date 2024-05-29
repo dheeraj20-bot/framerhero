@@ -1,20 +1,22 @@
+import { Changes, Happy, Review, Tell, Upload } from "@/components/ourwork/WorkCard";
+import { title } from "process";
+
 export const clientImages = [
-    { name: "5MinuteCrafts", url: "/5MinuteCrafts.webp" },
-    { name: "Bestie", url: "/Bestie.jpg" },
+    { name: "5MinuteCrafts", url: "/5MinuteCrafts.png" },
+    { name: "Bestie", url: "/Bestie.png" },
     { name: "BJP", url: "/BJP.webp" },
     { name: "CocaCola", url: "/cocacola.svg" },
     // { name: "DevelopGoodHabit", url: "/DevelopGoodHabit.jpg" },
-    { name: "EscapingOrdinary", url: "/EscapingOrdinary.jpg" },
+    { name: "EscapingOrdinary", url: "/EscapingOrdinary.png" },
     // { name: "Fameoungeps", url: "/Fameloungeps.png" },
-    { name: "GeldMagnet", url: "/GeldMagnet.jpg" },
+    { name: "wealthywomen", url: "/wealthywomen.png" },
     // { name: "GreenhouseLogo", url: "/greenhouse-logo.svg" },
     { name: "IFFCO Kisan", url: "/IFFCO Kisan.png" },
     { name: "Jill Peach", url: "/jill-peach.webp" },
-    { name: "McDonald", url: "/mcdonald.svg" },
+    { name: "McDonald", url: "/mcdonald.png" },
     { name: "Nanny Parent Connection", url: "/NannyParentConnection.png" },
     { name: "Some Good News", url: "/Some Good News.png" },
-    { name: "Tinder", url: "/tinder.svg" },
-    // { name: "Tucson Homes & Lots", url: "/Tucson Homes & Lots.png" }
+    { name: "Tinder", url: "/tinder.png" },
   ];
 
 export  const navItems = [
@@ -44,6 +46,44 @@ export  const testimonials = [
       quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
       name: "Mel Shah",
       title: "Famelounge-ps"
+    },
+    {
+      quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
+      name: "Mel Shah",
+      title: "Famelounge-ps"
+    },
+    {
+      quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
+      name: "Mel Shah",
+      title: "Famelounge-ps"
+    }
+  ];
+  
+ export  const features = [
+    {
+      title: "Upload your footage",
+      id: "Upload",
+      card:Upload
+    },
+    {
+      title: "Tell us what you want",
+      id: "Tell",
+      card:Tell
+    },
+    {
+      title: "Review your video– as fast as next day",
+      id: "Review",
+      card:Review
+    },
+    {
+      title: "Need changes? Let’s make it how you want it!",
+      id: "Changes",
+      card:Changes
+    },
+    {
+      title: "When you’re happy, let’s start another!",
+      id: "Happy",
+      card:Happy
     }
   ];
   

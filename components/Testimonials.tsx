@@ -1,20 +1,27 @@
 import { testimonials } from "@/data"
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards"
+import { TestimonialCard } from "./TestimonialCard"
 
 
 export const Testimonials = () => {
   return (
-    <div className="h-[50rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.03]  items-center  relative overflow-hidden">
-         <div>
-           <h2 className="text-3xl sm:text-4xl font-semibold  py-20">What Our  <span className="text-purple">Clients Say</span></h2>
-         </div>
+      <div className="px-6 overflow-hidden py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-10">
+          <h2 className="text-5xl sm:font-semibold mb-14 max-w-2xl leading-normal">What People Say</h2>
+           <div className="flex flex-col gap-6 lg:grid lg:grid-cols-3 ">
+            {
+                  testimonials.map((testimonial, index) => (
+                    <TestimonialCard key={index}
+                    index={index}
+                    quote={testimonial.quote} 
+                    name={testimonial.name}
+                    title={testimonial.title}
+                    className={index===2?"row-span-2":index===3?"row-span-2":index===5?"col-span-2":""}
+                    />
 
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="left"
-        speed="slow"
-      />
-    </div>
+                  ))
+            }
+
+           </div>
+      </div>
   )
 }
 
