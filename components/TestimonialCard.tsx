@@ -15,7 +15,7 @@ export const TestimonialCard = ({ quote, name, title, className,index }: Testimo
 
         <div className="rounded-2xl w-full h-full  overflow-hidden  flex flex-col gap-6 items-center">
             <div className="p-4">
-            <p className="text-lg text-center font-light">"{quote}"</p>
+            <p className="text-lg text-center font-light">{quote}</p>
             <div className="flex flex-row gap-4 py-5 justify-center items-center">
             <img src="/Bestie.png" className="w-10 h-10 rounded-full  object-cover"/>
             <div className="flex flex-col">
