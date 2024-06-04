@@ -4,9 +4,16 @@ import { TestimonialCard } from "./TestimonialCard"
 
 export const Testimonials = () => {
   return (
-      <div className="px-6 overflow-hidden py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-10">
-          <h2 className="text-5xl sm:font-semibold mb-14 max-w-2xl text-center mx-auto leading-normal">What People <span className="text-yellow-500">Say</span></h2>
-           <div className="flex flex-col gap-6 lg:grid lg:grid-cols-3 ">
+    <main className=" py-20">
+
+        <div>
+        <h2 className=" text-4xl sm:text-5xl font-bold mb-16 text-center">What People Say {""}<span className="text-yellow-500">About Us</span></h2>
+
+        </div>
+      <div className="flex justify-center items-center max-w-7xl mx-auto min-h-screen p-8 ">
+
+        
+           <div className="grid gap-6 grid-cols-1 lg:grid-cols-4 ">
             {
                   testimonials.map((testimonial, index) => (
                     <TestimonialCard key={index}
@@ -14,7 +21,8 @@ export const Testimonials = () => {
                     quote={testimonial.quote} 
                     name={testimonial.name}
                     title={testimonial.title}
-                    className={index===2?"row-span-2":index===3?"row-span-2":index===5?"col-span-2":""}
+                    image={testimonial.image}
+                    className={index===1  ? "md:col-span-2" : index===3?"md:row-span-2":index===4 || index===5?"md:-mt-14":""}
                     />
 
                   ))
@@ -22,6 +30,7 @@ export const Testimonials = () => {
 
            </div>
       </div>
+      </main>
   )
 }
 

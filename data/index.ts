@@ -28,35 +28,54 @@ export  const navItems = [
 
   export const testimonials = [
     {
-        quote: "If you want a dynamic, forward-thinking and creative contractor to help your team with video production/editing, look no further than GHA Media. We have been working with them for a little over two years now and they are a HUGE addition to our team. They produces high quality YouTube/IGTV videos for us and is always forthcoming with feedback on how we can improve our raw video. We will work with them for a long time to come!",
-        name: "Laura Scoccolo",
-        title: "Nanny Parent Connection"
+      quote: "GHA Media is a core part of our team now and the success and reach of the videos is based on there amazing editing skills. Team also does the research for content that fits the video and gives wonderful suggestions to improve the video.",
+      name: "Giuliano Lenz",
+      title: "Some Good News, Europe",
+      image:"/Giuliano.png",
+      
+      
+
+  },
+    {
+        quote:"If you want a dynamic, forward-thinking and creative contractor to help your team with video production/editing, look no further than GHA Media. We have been working with them for a little over two years now and they are a HUGE addition to our team. They produces high quality YouTube/IGTV videos for us and is always forthcoming with feedback on how we can improve our raw video. We will work with them for a long time to come!",
+        name: "Colby Underwood",
+        title: "Nanny Parent Connection",
+        image:"/Giuliano.png",
+        className: ""
     },
     {
-        quote: "GHA Media is a core part of our team now and the success and reach of the videos is based on there amazing editing skills. Team also does the research for content that fits the video and gives wonderful suggestions to improve the video.",
-        name: "Giuliano Lenz",
-        title: "Some Good News, Europe"
+      quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
+      name: "Mel Shah",
+      title: "Famelounge-ps",
+      image:"/Giuliano.png",
+      
+  },
+   
+    {
+        quote: "GHA Media has been our go to choice for video editing over the past five years. Their editors demonstrate an intuitive understanding of our brand, making the creative process efficient and hassle free. This partnership has played a pivotal role in our growth, making them an integral part of our success story.",
+        name: "Prashant Kr. Singh",
+        title: "Bestie Health",
+        image:"/Giuliano.png"
     },
     {
-        quote: "GHA Media exceeds expectations of video editors. They are intuitive, creative, and artistic. They turns my beauty tutorial videos into engaging Youtube and IG ready content that stands out. I&apos;ve gotten many compliments from my customers and followers that the video introduction that they made is exceptional. I would highly recommend there talents to anyone looking for editors with there pulse on what&rsquo;s trending in online video content.",
-        name: "Meagan Carboney",
-        title: "Jill Razor"
+        quote: "This is a testimonial for GHA Media to be specific for Sanskriti, with whom I've been working for over a year right now. And there has been some things I liked about the corporation such as great quality and decent pricing.",
+        name: "Jaroslav Jakl",
+        title: "Geld Magnet",
+        image:"/Giuliano.png"
     },
     {
-        quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
-        name: "Mel Shah",
-        title: "Famelounge-ps"
+        quote: "GHA Media has transformed our video content over the past three years. Their team understands our brand and audience perfectly, making the process smooth and enjoyable. The videos are always engaging and visually stunning, boosting our online presence significantly. GHA Media feels like part of our family. Highly recommended!        ",
+        name: "Steve J. Scott",
+        title: "Develop Good Habits",
+        image:"/Giuliano.png",  
     },
     {
-        quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
-        name: "Mel Shah",
-        title: "Famelounge-ps"
-    },
-    {
-        quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
-        name: "Mel Shah",
-        title: "Famelounge-ps"
-    }
+      quote: "GHA Media exceeds expectations of video editors. They are intuitive, creative, and artistic. They turns my beauty tutorial videos into engaging Youtube and IG ready content that stands out. I&apos;ve gotten many compliments from my customers and followers that the video introduction that they made is exceptional. I would highly recommend there talents to anyone looking for editors with there pulse on what&rsquo;s trending in online video content.",
+      name: "Meagan Carboney",
+      title: "Jill Razor",
+      image:"/Giuliano.png"
+  },
+    
 ];
 
   
@@ -88,3 +107,34 @@ export  const navItems = [
     }
   ];
   
+const benefits = [
+  {
+    title: "Fast Turnaround",
+    descr: "Ensure your projects progress steadily and consistently meet deadlines."
+  },
+  {
+    "title": "Unlimited Revisions",
+    "descr": "Long review cycles are a thing of the past!"
+  },
+  {
+    "title": "Real-Time Collaboration",
+    "descr": "Your project manager replies to every message within an hour (US Eastern Time)."
+  },
+  {
+    "title": "Project Dashboard",
+    "descr": "Effortlessly see all your projects in one place."
+  },
+  {
+    "title": "Licensed Media",
+    "descr": "Say goodbye to copyright claims and the hassle of sourcing the right music, sound effects, and stock footage."
+  },
+  {
+    "title": "Affordable Pricing",
+    "descr": "Rest assured you'll stay on budget."
+  },
+  {
+    "title": "Satisfaction Guarantee",
+    "descr": "We guarantee you'll love our editing services! Sign up today for a 14-day trial, and if you're not thrilled after 14 days, simply cancel and we'll refund your money. Start now with confidence!"
+  }
+]
+

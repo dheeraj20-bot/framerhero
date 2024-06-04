@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 interface TestimonialCardProps {
     quote: string;
@@ -5,35 +6,37 @@ interface TestimonialCardProps {
     title: string;
     className?: string;
     index: number;
+    image: string;
   }
   
 
 
-export const TestimonialCard = ({ quote, name, title, className,index }: TestimonialCardProps) => {
+export const TestimonialCard = ({ quote, name, title, className,image,index }: TestimonialCardProps) => {
     return (
-      <div className={`group rounded-2xl  backdrop-blur-lg  border-gray-700  border ${className}`}>
+      <div className={`  p-6  border border-b-yellow-500 rounded-lg h-fit flex flex-col gap-4  ${className}`}>
 
-        <div className="rounded-2xl w-full h-full  overflow-hidden  flex flex-col gap-6 items-center">
-            <div className="p-4">
-            <p className="text-lg text-center font-light">{quote}</p>
-            <div className="flex flex-row gap-4 py-5 justify-center items-center">
-            <img src="/Bestie.png" className="w-10 h-10 rounded-full  object-cover"/>
-            <div className="flex flex-col">
-            <h3 className="text-2xl mt-4">{name}</h3>
-             <p className="text-sm">{title}</p>
+    
+            <div className=" text-center px- py-2">
+            <p className={`text-lg ${index  === 1 ? 'text-white  font-medium' : 'text-gray-300  font-normal'} ` }> {quote}</p>
             </div>
-             </div>
-            </div>
-             
-           
-             
-          {index ===2 && <img src="/Bestie.png" className="w-full h-full   object-cover"/>}
-        </div>
-        <div
-        className= "h-24 w-24 rounded-full -bottom-2 bg-yellow-500 blur-3xl absolute"
+
+          <section className={`${
+            index === 1 ? "border-t border-t-gray-500 border-opacity-50 justify-between" : " justify-center"
+          } flex items-center  gap-4`}>
+        <Image
+          src={image}
+          alt="profile-img"
+          width={40}
+          height={40}
+          className="rounded-full h-9 w-9 mt-2"
         />
-       
+        <div>
+          <div className="text-xs   opacity-70 leading-relaxed font-semibold">{name}</div>
         </div>
+      </section>
+ 
+        </div>       
+       
     );
   };
 

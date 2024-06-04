@@ -5,7 +5,7 @@ export const WorkStep = () => {
   return (
     <div className="px-4 max-w-6xl mx-auto  ">
 
-        <h2 className=" text-center py-10 font-semibold text-5xl">How GHAMEDIA  <span className="text-yellow-500">Works</span></h2>
+        <h2 className=" text-center py-5 sm:py-10 -mb-48 sm:mb-0 font-semibold text-2xl sm:text-5xl">How its <span className="text-yellow-500">Works</span></h2>
 
         <div className="flex w-full gap-5 sm:gap-20 items-start ">
               <div className="w-full py-[50vh]">
