@@ -30,7 +30,7 @@ const getData = cache(async()=>{
 const BlogPage = async ({params:{slug}}:Props) => {
   const data:any = await getData()
   return (
-    <article className="px-3 antialiased bg-black-100  pt-10 overflow-hidden pb-28 max-w-4xl mx-auto">
+    <article className="px-3 antialiased   pt-10 overflow-hidden pb-28 max-w-4xl mx-auto">
   <section className="space-x-3 py-8 text-slate-900/95  dark:text-white sm:py-16">
    <h1 className="text-4xl sm:text-5xl mb-10 font-bold">{data.title}</h1>
     <div className="flex flex-row items-center gap-3">

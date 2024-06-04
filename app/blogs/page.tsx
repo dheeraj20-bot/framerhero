@@ -20,7 +20,7 @@ const getPosts = async()=>{
     _createdAt,
     description,
     categories
-  }`
+  }[0...10]`
   return client.fetch(query)
 }
 
@@ -35,7 +35,7 @@ export default async function BlogPage({ searchParams,
   const posts = await getPosts()
  
   return (
-   <div className="overflow-x-hidden pt-10">
+   <div className="overflow-x-hidden pt-24">
      <div  className="px-3 py-6">
          <h1 className="text-3xl mb-2 text-center font-semibold lg:text-5xl">GHAMEDIA{" "}<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500">Blogs</span> </h1>
          <p></p>

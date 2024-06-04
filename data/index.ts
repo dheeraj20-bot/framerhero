@@ -40,14 +40,14 @@ export  const navItems = [
         quote:"If you want a dynamic, forward-thinking and creative contractor to help your team with video production/editing, look no further than GHA Media. We have been working with them for a little over two years now and they are a HUGE addition to our team. They produces high quality YouTube/IGTV videos for us and is always forthcoming with feedback on how we can improve our raw video. We will work with them for a long time to come!",
         name: "Colby Underwood",
         title: "Nanny Parent Connection",
-        image:"/Giuliano.png",
+        image:"/Colby.jpg",
         className: ""
     },
     {
       quote: "Working with GHA Media for video editing has been a game changer. Their editors get my style, requiring minimum direction and meet deadlines. For a hassle free experience, choose them! Highly recommended!",
       name: "Mel Shah",
       title: "Famelounge-ps",
-      image:"/Giuliano.png",
+      image:"/Mel.png",
       
   },
    

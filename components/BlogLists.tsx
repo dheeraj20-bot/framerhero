@@ -37,27 +37,7 @@ const BlogLists = ({posts}:Props) => {
                             fill
                             priority
                             />
-                            <div className="absolute bottom-0 w-full bg-opacity-20 bg-gradient-to-r  from-teal-500 to-violet-400 group-hover:from-emerald-600 group-hover:to-blue-600
-                            backdrop-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between">
-                                <div>
-                                    <p className="font-bold">{post.title}</p>
-                                    <p>
-                                        {new Date(post._createdAt).toLocaleDateString("en-US",{
-                                            day:'numeric',
-                                            month:'long',
-                                            year:'numeric'
-                                        })}
-                                    </p>
-                                </div>
-                                <div className="flex flex-col  gap-y-2 md:gap-y-2 items-center">
-                                    {post.categories?.map(category=>(
-                                        <div key={category._id} className=" bg-orange-500 text-center
-                                         text-black px-3  py-1 rounded-full text-sm font-semibold">
-                                            <p>{category.title}</p>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
+
                          </div>
                          <div className="mt-5 flex-1">
                             <p className=" underline text-lg font-bold">{post.title}</p>
