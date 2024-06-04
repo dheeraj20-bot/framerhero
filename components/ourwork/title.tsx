@@ -27,6 +27,6 @@ export const WorkTitle = ({children,id}: Props) => {
     
     
   return (
-    <p ref= {ref} className={`${isInView ? "text-white text-2xl" : " text-neutral-600 text-xl"}  sm:text-5xl transition-colors py-16 `}>{children}</p>
+    <div ref= {ref} className={`${isInView ? "text-white text-2xl" : " text-neutral-600 text-xl"}  transition-colors py-24 `}>{children}</div>
   )
 }

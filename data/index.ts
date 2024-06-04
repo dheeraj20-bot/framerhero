@@ -79,60 +79,72 @@ export  const navItems = [
 ];
 
   
- export  const features = [
-    {
-      title: "Upload your footage",
-      id: "Upload",
-      card:Upload
-    },
-    {
-      title: "Tell us what you want",
-      id: "Tell",
-      card:Tell
-    },
-    {
-      title: "Review your video– as fast as next day",
-      id: "Review",
-      card:Review
-    },
-    {
-      title: "Need changes? Let’s make it how you want it!",
-      id: "Changes",
-      card:Changes
-    },
-    {
-      title: "When you’re happy, let’s start another!",
-      id: "Happy",
-      card:Happy
-    }
-  ];
-  
-const benefits = [
+export const features = [
   {
+    title: "Upload your footage ",
+    id: "Upload",
+    card: Upload,
+    description: "Easily upload your video clips using our drag-and-drop interface or browse your files."
+  },
+  {
+    title: "Tell us what you want ✨",
+    id: "Tell",
+    card: Tell,
+    description: "Provide clear instructions or a script for your desired video editing. You can also attach reference videos for inspiration."
+  },
+  {
+    title: "Review your video - lightning fast! ⚡️",
+    id: "Review",
+    card: Review,
+    description: "Get your expertly edited video back as quickly as the next day (depending on complexity)."
+  },
+  {
+    title: "Need changes? We've got you covered! ",
+    id: "Changes",
+    card: Changes,
+    description: "Unlimited revisions are included until you're absolutely satisfied with your final video."
+  },
+  {
+    title: "Love it? Let's create more together! ",
+    id: "Happy",
+    card: Happy,
+    description: "We're here to help you bring your video ideas to life, so come back anytime for more awesome edits!"
+  }
+];
+
+export const benefits = [
+  { 
+    id: 1,
     title: "Fast Turnaround",
     descr: "Ensure your projects progress steadily and consistently meet deadlines."
   },
   {
+    id:2,
     "title": "Unlimited Revisions",
     "descr": "Long review cycles are a thing of the past!"
   },
   {
+    id:3,
     "title": "Real-Time Collaboration",
     "descr": "Your project manager replies to every message within an hour (US Eastern Time)."
   },
   {
+    id:4,
     "title": "Project Dashboard",
     "descr": "Effortlessly see all your projects in one place."
   },
   {
+    id:5,
     "title": "Licensed Media",
     "descr": "Say goodbye to copyright claims and the hassle of sourcing the right music, sound effects, and stock footage."
   },
   {
+    id:6,
     "title": "Affordable Pricing",
     "descr": "Rest assured you'll stay on budget."
   },
   {
+    id:7,
     "title": "Satisfaction Guarantee",
     "descr": "We guarantee you'll love our editing services! Sign up today for a 14-day trial, and if you're not thrilled after 14 days, simply cancel and we'll refund your money. Start now with confidence!"
   }

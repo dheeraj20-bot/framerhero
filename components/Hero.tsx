@@ -24,7 +24,7 @@ export const Hero = () => {
               text-center text-blue-100  bg-neutral-800/60  backdrop-blur-md sticky px-2 rounded-lg py-2 max-w-80">Creativity, Strategy, Results</h2>
                <h1 className="text-4xl md:text-6xl lg:text-7xl tracking-wide leading-tight font-bold text-center  text-white  my-6">Your Vision Our Edit  <span className=" text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-400 ">Seamless Experience</span></h1>
               <p className="text-center md:tracking-wider text-gray-400 mb-4 text-sm md:text-lg lg:text-2xl">
-              On-Demand Video Editing Support for Growing Businesses</p>
+              On-Demand Video Editing Support for Growing Businesses, Small Businesses and Content Creator</p>
               <a href="#about">
                 <MagicButton title="Book a Call" icon={<FaLocationArrow/>}
                 position="right"

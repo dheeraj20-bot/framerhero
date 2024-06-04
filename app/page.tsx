@@ -1,11 +1,10 @@
+import { Benefits } from "@/components/Benefits";
 import { BookaCall } from "@/components/BookaCall";
 import { Clients } from "@/components/Clients";
 import { Hero } from "@/components/Hero";
 import { Testimonials } from "@/components/Testimonials";
 import { WorkStep } from "@/components/WorkStep";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -15,6 +14,7 @@ export default function Home() {
           <Clients/>    
           <Testimonials/>
           <WorkStep/>
+          <Benefits/>
     </main>
   );
 }

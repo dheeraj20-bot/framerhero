@@ -27,7 +27,10 @@ const WorkCard = ({gradient,children,id}:WorkCardProps) => {
 export const Upload = ({id}:CardProps)=>{
     return(
         <WorkCard id={id} gradient="bg-gradient-to-br from-blue-500 to-green-500">
-            <span>Upload your footage</span>
+            <div className="flex flex-col items-center justify-center h-full">
+            <span className="text-3xl font-bold">Upload your footage</span>
+            </div>
+            
         </WorkCard>
     )
 }
