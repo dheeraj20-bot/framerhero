@@ -9,8 +9,8 @@ export const Clients = () => {
           <h2 className=" text-4xl sm:text-5xl font-bold mb-16 text-center">Companies we&apos;ve <span className="text-yellow-500">Edited for</span></h2>
         </div>
         <div className=" max-w-7xl mx-auto">
-            <InfiniteMovingCards items ={clientImages.slice(0,6)} speed="fast" />
-            <InfiniteMovingCards items ={clientImages.slice(6)} direction="right" speed="fast" />
+            <InfiniteMovingCards items ={clientImages} speed="fast" />
+            <InfiniteMovingCards items ={clientImages} direction="right" speed="fast" />
         </div>
        
     </ >
