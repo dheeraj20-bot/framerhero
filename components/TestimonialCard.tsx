@@ -13,8 +13,8 @@ interface TestimonialCardProps {
 
 export const TestimonialCard = ({ quote, name, title, className,image,index }: TestimonialCardProps) => {
     return (
-      <div className={`  p-6  hover:scale-105 duration-300 transition-all  
-      border-r-4 border-b-4 border-b-yellow-500 border-r-yellow-500 rounded-lg h-fit flex flex-col gap-4  ${className}`}>
+      <div className={` bg-zinc-950 shadow-[-5px_-5px_10px_0px_rgba(0,0,0,0.1),_5px_5px_10px_4px_rgba(255,255,255,0.15)]  p-6  hover:translate-y-[-10px] duration-300 transition-all  
+       rounded-3xl h-fit flex flex-col gap-4  ${className}`}>
 
   
             <div className=" text-center px- py-2">
@@ -22,7 +22,7 @@ export const TestimonialCard = ({ quote, name, title, className,image,index }: T
             </div>
 
           <section className={`${
-            index === 1 ? "border-t border-t-gray-500 border-opacity-50 justify-between" : " justify-center"
+            index === 1 ? "border-t-2 py-2 border-t-yellow-500 border-opacity-50 justify-between" : " justify-center"
           } flex items-center  gap-4`}>
         <Image
           src={image}
@@ -32,7 +32,8 @@ export const TestimonialCard = ({ quote, name, title, className,image,index }: T
           className="rounded-full  h-14 w-14 object-cover mt-2"
         />
         <div>
-          <div className="text-xs   opacity-70 leading-relaxed font-semibold">{name}</div>
+          <div className="text-lg   opacity-70 leading-relaxed font-semibold">{name}</div>
+          <div className="text-xs  text-slate-100  opacity-70 leading-relaxed font-semibold">{title}</div>
         </div>
       </section>
  
