@@ -37,7 +37,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <main className="bg-black-100 antialiased ">
+            <main className="bg-black antialiased ">
             <Header />
             {children}
             </main>

@@ -3,6 +3,7 @@ import { BookaCall } from "@/components/BookaCall";
 import { Clients } from "@/components/Clients";
 import { FaqSection } from "@/components/FaqSection";
 import { Hero } from "@/components/Hero";
+import OurWorkSection from "@/components/OurWorkSection";
 import PricingSection from "@/components/PricingSection";
 import { Testimonials } from "@/components/Testimonials";
 import { WorkStep } from "@/components/WorkStep";
@@ -15,6 +16,7 @@ export default function Home() {
           <Hero/>
           <Clients/>    
           <Testimonials/>
+          <OurWorkSection/>
           <WorkStep/>
           <Benefits/>
           <PricingSection/>
