@@ -87,11 +87,7 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className=" max-w-full relative flex items-center  hover:scale-105 transition-all duration-300 rounded-2xl border border-b-0 
-            flex-shrink-0 border-slate-700 bg-gradient-to-tr from-slate-600 to-slate-900 px-8 py-6 w-24 md:w-32"
-            // style={{
-            //   background:
-            //     "linear-gradient(180deg, var(--slate-400), var(--slate-900)",
-            // }}
+            flex-shrink-0 border-slate-900 bg-gradient-to-tr from-slate-800 to-slate-900 px-8 py-6 w-24 md:w-32"
             key={idx}
           >
                   <Image

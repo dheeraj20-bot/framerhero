@@ -1,7 +1,9 @@
 import { Benefits } from "@/components/Benefits";
 import { BookaCall } from "@/components/BookaCall";
 import { Clients } from "@/components/Clients";
+import { FaqSection } from "@/components/FaqSection";
 import { Hero } from "@/components/Hero";
+import PricingSection from "@/components/PricingSection";
 import { Testimonials } from "@/components/Testimonials";
 import { WorkStep } from "@/components/WorkStep";
 import { FloatingNav } from "@/components/ui/floating-navbar";
@@ -15,6 +17,8 @@ export default function Home() {
           <Testimonials/>
           <WorkStep/>
           <Benefits/>
+          <PricingSection/>
+          <FaqSection/>
     </main>
   );
 }

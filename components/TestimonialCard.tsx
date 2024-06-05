@@ -13,7 +13,7 @@ interface TestimonialCardProps {
 
 export const TestimonialCard = ({ quote, name, title, className,image,index }: TestimonialCardProps) => {
     return (
-      <div className={`  p-6  bg-black-200 hover:scale-105 duration-300 transition-all  
+      <div className={`  p-6  hover:scale-105 duration-300 transition-all  
       border-r-4 border-b-4 border-b-yellow-500 border-r-yellow-500 rounded-lg h-fit flex flex-col gap-4  ${className}`}>
 
   

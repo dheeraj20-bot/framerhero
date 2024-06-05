@@ -26,6 +26,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        poppins: ["var(--font-sans)"],
+        gothicA1: ["var(-font-gothic)"],
+      },
       colors: {
         black: {
           DEFAULT: "#000",

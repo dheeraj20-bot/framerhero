@@ -150,3 +150,96 @@ export const benefits = [
   }
 ]
 
+
+export const faqs = [
+    {
+      question: "01. What Video Editing software do you use?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "02. How many Raw Footage can I submit?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "03. Do I get my Project Files too?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "04. Your Editors in-house, or Freelance??",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "05. Is there a minimum commitment?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "06. What's the commitment?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "07. Can you guys receive Templates?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "08. Do you guys also do assembly or partial edits?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+    {
+      question: "09. Are your packages Truly Unlimited?",
+      answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
+    },
+   
+]
+
+
+export const pricingPlans = [
+  {
+      title: "Basic",
+      price: "₹215.87",
+      billingCycle: "month",
+      billedAnnually: true,
+      save: "11%",
+      features: [
+          "Small reply boost",
+          "Encrypted direct messages",
+          "Bookmark folders",
+          "Highlights tab",
+          "Edit post",
+          "Post longer videos",
+          "Longer posts"
+      ]
+  },
+  {
+      title: "Premium",
+      price: "₹566.67",
+      billingCycle: "month",
+      billedAnnually: true,
+      save: "12%",
+      features: [
+          "Everything in Basic, and",
+          "Half Ads in For You and Following",
+          "Larger reply boost",
+          "Get paid to post",
+          "Checkmark",
+          "Grok Early Access",
+          "X Pro, Analytics, Media Studio",
+          "Creator Subscriptions"
+      ]
+  },
+  {
+      title: "Premium+",
+      price: "₹1,133.33",
+      billingCycle: "month",
+      billedAnnually: true,
+      save: "12%",
+      features: [
+          "Everything in Premium, and",
+          "No Ads in For You and Following",
+          "Largest reply boost",
+          "Write Articles"
+      ]
+  }
+];
+
+// Example of using the map function to display plan titles
+
