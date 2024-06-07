@@ -41,7 +41,7 @@ export function AboutSection() {
               )}
               {
                 item.description.map((list)=>(
-                    <ul className=" ml-5 text-slate-300 list-disc  leading-loose text-sm sm:text-xl">
+                    <ul key={list} className=" ml-5 text-slate-300 list-disc  leading-loose text-sm sm:text-xl">
                         <li>{list}</li>
                     </ul>
                 ))
