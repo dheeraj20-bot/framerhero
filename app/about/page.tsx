@@ -1,8 +1,9 @@
+import { AboutSection } from "@/components/AboutSection"
 
 const About = () => {
   return (
-    <main className="">
-         About
+    <main className="py-20">
+         <AboutSection/>
     </main>
   )
 }

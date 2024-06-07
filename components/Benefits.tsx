@@ -5,9 +5,14 @@ import BenefitCard from "./BenefitCard";
 export function Benefits() {
   return (
 
-    <div className="max-w-5xl px-3 relative sm:px-6 lg:px-8 py-0 mx-auto">
+    <div className="max-w-7xl px-3 antialiased relative sm:px-6 lg:px-8 py-20 mx-auto">
 
-      <h2 className=" text-4xl sm:text-5xl font-bold text-center mb-16">Benefits of <span className="text-yellow-500">GHA Media</span> </h2>
+    <div className="mb-16  text-center">
+      <h2 className=" text-4xl mb-4 sm:text-5xl text-transparent bg-clip-text bg-gradient-to-b from-gray-400 to-white font-bold text-center">Benefits of <span className="text-yellow-500">GHA Media</span> </h2>
+       <p className="text-xl text-slate-300">An on-demand team at your fingertips.</p>
+         </div>
+
+     
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 ">
          {
             benefits.map((benefit)=>(

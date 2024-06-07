@@ -12,7 +12,7 @@ type Props = {
 
 export const WorkTitle = ({children,id}: Props) => {
     const ref = useRef<HTMLParagraphElement>(null)
-    const isInView =useInView(ref,{margin:"-50% 0px -50% 0px"})
+    const isInView =useInView(ref,{margin:"50% 0px -50% 0px"})
     const setInViewFeature = useWorkStore(state =>state.setInViewFeature)
     const InViewFeature = useWorkStore(state =>state.inViewFeature)
 

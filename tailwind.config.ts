@@ -26,6 +26,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'custom-radial': 'radial-gradient(19635.01% 62.97% at 55.79% 50%, #000000 0%, #1d1829 100%)',
+        'custom-le': 'radial-gradient(circle at right bottom, #c9b12c , #464743)',
+      },
       fontFamily: {
         poppins: ["var(--font-sans)"],
         gothicA1: ["var(-font-gothic)"],

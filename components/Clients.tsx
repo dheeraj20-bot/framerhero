@@ -5,9 +5,12 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards"
 export const Clients = () => {
   return (
     <>
-        <div className="overflow-hidden px-3">
-          <h2 className=" text-4xl sm:text-5xl font-bold mb-16 text-center">Companies we&apos;ve <span className="text-yellow-500">Edited for</span></h2>
-        </div>
+        
+       
+       <h2 className=" text-center  text-transparent 
+        bg-clip-text  bg-gradient-to-b py-20  from-white to-gray-400 
+         -mb-48 sm:mb-5 font-semibold text-4xl sm:text-6xl">Our Valued   <span className="text-yellow-500">Clients</span></h2>
+                
         <div className=" max-w-7xl mx-auto">
             <InfiniteMovingCards items ={clientImages} speed="fast" />
             <InfiniteMovingCards items ={clientImages} direction="right" speed="fast" />

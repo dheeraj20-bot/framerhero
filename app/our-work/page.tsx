@@ -1,11 +1,11 @@
+import { FadeUpStagger } from "@/components/FadeupText"
 import OurWork from "@/components/OurWork"
 
 const Work = () => {
   return (
     <section className=" py-28 ">
-         <div className="text-center">
-          <h1 className="text-5xl font-bold pt-10">Our Work</h1>
-          <p className="mt-6 text-lg  text-gray-300">We have edited 6,500+ videos for our clients</p>
+         <div className="">
+          <FadeUpStagger/>
          </div>
            
            <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">

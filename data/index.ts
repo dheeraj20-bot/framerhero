@@ -83,6 +83,7 @@ export const features = [
   {
     title: "Upload your footage ",
     id: "Upload",
+    image:"/upload.webp",
     card: Upload,
     description: "Easily upload your video clips using our drag-and-drop interface or browse your files."
   },

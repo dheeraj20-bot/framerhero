@@ -1,6 +1,7 @@
 'use client'
 import React from "react"
 import { useWorkStore } from "./store"
+import Image from "next/image"
 
 type WorkCardProps = {
     gradient:String
@@ -26,9 +27,15 @@ const WorkCard = ({gradient,children,id}:WorkCardProps) => {
 
 export const Upload = ({id}:CardProps)=>{
     return(
-        <WorkCard id={id} gradient="bg-gradient-to-br from-blue-500 to-green-500">
+        <WorkCard id={id} gradient="">
             <div className="flex flex-col items-center justify-center h-full">
-            <span className="text-3xl font-bold">Upload your footage</span>
+            <Image
+             src="/upload.webp"
+             width={1000}
+             height={1000}
+             alt="Upload your footage"
+             className="rounded-xl object-cover w-full h-full"
+             />
             </div>
             
         </WorkCard>
@@ -38,7 +45,15 @@ export const Upload = ({id}:CardProps)=>{
 export const Tell = ({id}:CardProps)=>{
     return(
         <WorkCard id={id} gradient="bg-gradient-to-br from-yellow-500 to-orange-500">
-            <span>Tell us what you want</span>
+           <div className="flex flex-col items-center justify-center h-full">
+            <Image
+             src="/tell.webp"
+             width={1000}
+             height={1000}
+             alt="Tell us what you want "
+             className="rounded-xl object-cover w-full h-full"
+             />
+            </div>
         </WorkCard>
     )
 }
@@ -46,7 +61,15 @@ export const Tell = ({id}:CardProps)=>{
 export const Review = ({id}:CardProps)=>{
     return(
         <WorkCard id={id} gradient="bg-gradient-to-br from-red-500 to-purple-500">
-            <span>Review your video– as fast as next day</span>
+             <div className="flex flex-col items-center justify-center h-full">
+            <Image
+             src="/review.webp"
+             width={1000}
+             height={1000}
+             alt="Tell us what you want "
+             className="rounded-xl object-cover w-full h-full"
+             />
+            </div>
         </WorkCard>
     )
 }
@@ -54,7 +77,15 @@ export const Review = ({id}:CardProps)=>{
 export const Changes = ({id}:CardProps)=>{
     return(
         <WorkCard id={id} gradient="bg-gradient-to-br from-pink-500 to-red-500">
-            <span>Need changes? Let’s make it how you want it!</span>
+            <div className="flex flex-col items-center justify-center h-full">
+            <Image
+             src="/need.webp"
+             width={1000}
+             height={1000}
+             alt="Tell us what you want "
+             className="rounded-xl object-cover w-full h-full"
+             />
+            </div>
         </WorkCard>
     )
 }
@@ -62,7 +93,15 @@ export const Changes = ({id}:CardProps)=>{
 export const Happy = ({id}:CardProps)=>{
     return(
         <WorkCard id={id} gradient="bg-gradient-to-br from-teal-500 to-blue-500">
-            <span>When you’re happy, let’s start another!</span>
+            <div className="flex flex-col items-center justify-center h-full">
+            <Image
+             src="/love.webp"
+             width={1000}
+             height={1000}
+             alt="Tell us what you want "
+             className="rounded-xl object-cover w-full h-full"
+             />
+            </div>
         </WorkCard>
     )
 }
