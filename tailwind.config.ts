@@ -106,6 +106,17 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+
+        "border-width": {
+           from: {
+        width: "10px",
+        opacity: "0"
+      },
+      to: {
+        width: "100px",
+        opacity: "1"
+      }
+    },
         spotlight: {
           "0%": {
             opacity: "0",
@@ -169,6 +180,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
+        "border-width": "border-width 3s infinite alternate",
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",
         third: "moveInCircle 40s linear infinite",

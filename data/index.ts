@@ -117,37 +117,50 @@ export const benefits = [
   { 
     id: 1,
     title: "Fast Turnaround",
-    descr: "Ensure your projects progress steadily and consistently meet deadlines."
+    descr: "Ensure your projects progress steadily and consistently meet deadlines.",
+    image:"/benefits/first draft.webp"
   },
   {
     id:2,
     "title": "Unlimited Revisions",
-    "descr": "Long review cycles are a thing of the past!"
+    "descr": "Long review cycles are a thing of the past!",
+    image:"/benefits/unlimted revisions.webp"
+
   },
   {
     id:3,
     "title": "Real-Time Collaboration",
-    "descr": "Your project manager replies to every message within an hour (US Eastern Time)."
+    "descr": "Your project manager replies to every message within an hour (US Eastern Time).",
+    image:"/benefits/real time collabiration.webp"
+
   },
   {
     id:4,
     "title": "Project Dashboard",
-    "descr": "Effortlessly see all your projects in one place."
+    "descr": "Effortlessly see all your projects in one place.",
+    image:"/benefits/dashboard.webp"
+
   },
   {
     id:5,
     "title": "Licensed Media",
-    "descr": "Say goodbye to copyright claims and the hassle of sourcing the right music, sound effects, and stock footage."
+    "descr": "Say goodbye to copyright claims and the hassle of sourcing the right music, sound effects, and stock footage.",
+    image:"/benefits/licenced media.webp"
+
   },
   {
     id:6,
     "title": "Affordable Pricing",
-    "descr": "Rest assured you'll stay on budget."
+    "descr": "Rest assured you'll stay on budget.",
+    image:"/benefits/transperent pricing.webp"
+
   },
   {
     id:7,
     "title": "Satisfaction Guarantee",
-    "descr": "We guarantee you'll love our editing services! Sign up today for a 14-day trial, and if you're not thrilled after 14 days, simply cancel and we'll refund your money. Start now with confidence!"
+    "descr": "We guarantee you'll love our editing services! Sign up today for a 14-day trial, and if you're not thrilled after 14 days, simply cancel and we'll refund your money. Start now with confidence!",
+    image:"/benefits/14 days guarante.webp"
+
   }
 ]
 
