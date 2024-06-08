@@ -6,6 +6,7 @@ import { Inter } from 'next/font/google'
 import { Header } from "@/components/Header";
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 const poppins = Poppins({
@@ -22,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'GHA Media | Your Vision Our Edit ',
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: '/opengraph-image.png'
+    images: 'https://dheeraj-dun.vercel.app/_next/image?url=%2Flogo.png&w=128&q=75'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GHA Media | Your Vision Our Edit ',
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: '/opengraph-image.png'
+    images: 'https://dheeraj-dun.vercel.app/_next/image?url=%2Flogo.png&w=128&q=75'
   }
 };
 
