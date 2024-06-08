@@ -22,13 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'GHA Media | Your Vision Our Edit ',
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: './opengraph-image.png'
+    images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GHA Media | Your Vision Our Edit ',
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: './opengraph-image.png'
+    images: '/opengraph-image.png'
   }
 };
 
