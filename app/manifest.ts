@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'GHA Media',
     short_name: 'GHA Media',
-    description: 'Next.js App',
+    description: 'GHA Media',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',

@@ -5,9 +5,6 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/lib/urlFor";
 import { PortableText } from "@portabletext/react";
 import { RichTextComponents } from "@/components/RichTextComponents";
-import { Metadata } from "next";
-import { notFound } from 'next/navigation'
-
 
 type Props = {
   params:{
@@ -17,24 +14,28 @@ type Props = {
 
 export const revalidate = 60
 
-const getData = cache(async()=>{
-  const query = `*[_type=='post' && slug.current == "elevate-your-creativity-discover-adobe-s-top-5-game-changing-features"][0]{
+const getData = cache(async(slug:string)=>{
+  const query = `*[_type=='post' && slug.current == $slug][0]{
     ...,
     author->,
     categories[]->
   }`;
-  const data  = await client.fetch(query)
+  const data  = await client.fetch(query,{slug})
   return data;
 })
 
 const BlogPage = async ({params:{slug}}:Props) => {
-  const data:any = await getData()
+  const data:any = await getData(slug)
+  console.log(data.body);
+  
   return (
     <article className=" relative antialiased  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] 
-     pt-20 overflow-hidden pb-28  px-3 sm:px-[30rem] mx-auto">
+     pt-20 overflow-hidden pb-28 w-full mx-auto">
                 {/* <div className="absolute top-10 h-[90rem]   w-full "></div> */}
+    <div className="max-w-6xl mx-auto px-3">
 
-  <section className="space-x-3 py-8 text-slate-900/95  dark:text-white sm:py-16">
+
+  <section className="space-x-3 py-8 text-slate-900/95   dark:text-white sm:py-16">
    <h1 className="text-3xl sm:text-5xl mb-10 font-bold">{data.title}</h1>
     <div className="flex flex-row items-center gap-3">
     <Image
@@ -62,9 +63,9 @@ const BlogPage = async ({params:{slug}}:Props) => {
       </div>
     </div>
   </div>
-</section>
+   </section>
  
-    <section >
+    <section className="" >
             <div className="overflow-hidden rounded-2xl">
             <Image
             className=" w-full object-cover hover:scale-105  transition-all duration-300  h-full"
@@ -76,7 +77,8 @@ const BlogPage = async ({params:{slug}}:Props) => {
             /> 
             </div>   
     </section>
-      <PortableText value={data.body} components={RichTextComponents} />
+      <PortableText  value={data.body} components={RichTextComponents} />
+      </div>
     </article>
   )
 }

@@ -15,12 +15,21 @@ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
-
-
 export const metadata: Metadata = {
-  title: "GHA Media | Your Vision Our Edit ",
-  description: "Your Vision Our Edit",
-  keywords:""
+  metadataBase: new URL('http://localhost:3000'),
+  title: 'GHA Media | Your Vision Our Edit ',
+  description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
+  openGraph: {
+    title: 'GHA Media | Your Vision Our Edit ',
+    description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
+    images: './opengraph-image.png'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GHA Media | Your Vision Our Edit ',
+    description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
+    images: './opengraph-image.png'
+  }
 };
 
 export default function RootLayout({
