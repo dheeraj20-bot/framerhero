@@ -17,7 +17,7 @@ const BenefitCard = ({title,descr,id,image}:Props) => {
            
         <div className="relative 
         bg-gradient-to-b
-            px-4 py-8 h-full transition-all duration-300 overflow-hidden rounded-2xl flex flex-col space-y-2 items-start">
+            px-4 py-8 h-full  shadow-md  transition-all duration-300 overflow-hidden rounded-2xl flex flex-col space-y-2 items-start">
 
           <div className="h-10 w-10 rounded-full   flex items-center justify-center mb-4 ">
             <Image
@@ -49,7 +49,7 @@ const BenefitCard = ({title,descr,id,image}:Props) => {
             }
          
 
-         <Meteors number={20}/>
+         <Meteors number={10}/>
         </div>
       </div>
   )

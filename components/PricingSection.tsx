@@ -3,7 +3,7 @@ import { CheckCheckIcon, CheckCircle, CheckIcon, TicketIcon } from "lucide-react
 
 const PricingSection = () => {
   return (
-    <main className="max-w-[90rem] bg-gradient-to-r from-gray-800 to-black rounded-3xl mt-20 py-20 mx-auto px-4 sm:px-6 lg:px-8">
+    <main className="max-w-[90rem]  rounded-3xl mt-20 py-20 mx-auto px-4 sm:px-6 lg:px-8">
            <h2 className=" text-4xl sm:text-5xl font-bold  mb-16  max-w-3xl  leading-tight  text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-500 ">
            Find the perfect plan for every size business.
            </h2>
