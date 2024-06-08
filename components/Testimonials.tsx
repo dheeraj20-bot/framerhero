@@ -47,7 +47,7 @@ export const Testimonials = () => {
                     <div className={`  max-w-3xl w-full mx-auto
                          rounded-3xl  flex flex-col gap-4 mb- `}>
                        <div className=" text-left sm:text-center px-4 py-2 mb-10">
-                        <p className={`text-xl sm:text-3xl text-white ` }>"{" "}{ testimonial.quote}{" "}"</p>
+                        <p className={`text-xl sm:text-3xl text-white ` }>&quot;{" "}{ testimonial.quote}{" "}&quot;</p>
                             </div>
            
            <div className="w-full flex flex-wrap  px-2 justify-start sm:justify-center gap-10">
@@ -112,15 +112,18 @@ export const Testimonials = () => {
         </div>
 
              </section>
-             <div className=" w-full  flex justify-center gap-10">
+             <div className=" w-full  px-2 mt-4 flex justify-start  sm:justify-center gap-10">
             <PrevSwiperButton/>
-            <div className="swiper-pagination  text-sm"></div>
+            <div className=" swiper-pagination current  text-sm"></div>
             <SwiperButton/>
           </div>
+         
+
         </div> 
                      </SwiperSlide>
                   ))
             }  
+
       </Swiper>
 
       </main>
