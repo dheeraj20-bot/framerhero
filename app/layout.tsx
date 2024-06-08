@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     siteName: 'GHA Media | Your Vision Our Edit ',
     url:"https://dheeraj-dun.vercel.app/",
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: '/opengraph-image.png'
+    images: 'https://dheeraj-dun.vercel.app/opengraph-image.png?2f1c2513b6da9af5'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GHA Media | Your Vision Our Edit ',
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: '/opengraph-image.png'
+    images: 'https://dheeraj-dun.vercel.app/opengraph-image.png?2f1c2513b6da9af5'
   }
 };
 
