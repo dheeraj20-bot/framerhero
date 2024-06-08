@@ -27,11 +27,11 @@ const BlogLists = ({posts}:Props) => {
             {
                 posts.map((post)=>(
                      <Link  key={post._id} href={`/blogs/${post.currentslug}`}>
-                        <div  className="group cursor-pointer  overflow-hidden transition-all duration-300 shadow-md px-3 py-2 flex flex-col">
-                         <div className=" relative w-full h-80 overflow-hidden rounded-sm  drop-shadow-xl ">
+                        <div  className="group cursor-pointer overflow-hidden transition-all duration-300 shadow-md px-3 py-2 flex flex-col">
+                         <div className=" relative w-full h-80 overflow-hidden rounded-xl  drop-shadow-xl ">
                             <Image
                             src={urlFor(post.mainImage).url()}
-                            className="object-cover rounded-md object-left group-hover:scale-105
+                            className="object-cover  object-left group-hover:scale-105
                             transition-all duration-300 ease-in-out  lg:object-center"
                             alt={post.title}
                             fill

@@ -8,8 +8,8 @@ import { faqs } from "@/data"
   
   export function FaqSection() {
     return (
-      <main className=" max-w-5xl py-20 px-3 lg:px-10 mx-auto">
-        <h2 className=" text-3xl sm:text-5xl font-semibold">Frequently asked <span className="text-yellow-500">questions</span></h2>
+      <main className=" max-w-7xl py-20 px-3 lg:px-10 mx-auto">
+        <h2 className=" text-3xl bg-clip-text text-transparent bg-gradient-to-b  from-slate-500 to-white sm:text-6xl font-semibold">Frequently asked <span className="text-yellow-500">questions</span></h2>
         <Accordion type="single" collapsible className=" mx-auto mt-10">
 
           {

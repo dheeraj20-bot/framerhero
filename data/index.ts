@@ -257,3 +257,122 @@ export const pricingPlans = [
 
 // Example of using the map function to display plan titles
 
+export const Aboutus = [
+  {
+    title: "Dreaming into Reality",
+    badge: "Year 1 : The Genesis",
+    description: [
+        "GHA Media is born, a brainchild of Parth.",
+        "Seeds of On-Demand Video Editing Services planted from his Study Table.",
+        "First Client steps into the limelight for Video Editing magic.",
+        "Crafting the initial business symphony and service harmonies"
+    ],
+    image:
+    "/timeline1.jpg"
+  },
+  {
+    title: "Months 4-6: The Grand Unveiling",
+    description: [
+        "The digital curtain rises - GHA Media's website takes the stage.",
+        "The overture of brand identity plays, resonating through the online corridors."
+    ],
+    image:
+    "/timeline2.jpg"
+  },
+  {
+    title: "Months 7-12: The Blossoming",
+    description: [
+       "Applause echoes with positive client testimonials.",
+       "Services expand like a dynamic 2D animations and motion graphics, responding to client demands.",
+       "A new character enters the scene: Ritupurn, now the COO of GHA Media, adds a fresh dynamic to the narrative.",
+       "The portfolio gains 2 more clients, enriching the storyline with diverse collaborations."
+    ],
+    image:
+    "/timeline3.jpg"
+  },
+  {
+    badge:"Year 2: Harmony in Growth",
+    title: "Months 13-18: Expanding Horizons",
+    description: [
+       "Innovations dance through the frames of Video Editing, Motion Graphics, 2D Animation, Graphic Designing.",
+       "The GHA Media's narrative extends to new industries.",
+       "Networking echoes in the symphony of industry events.",
+       "The team swells with new 3 new talents - Pulkit, Shreshtth & Bhavana"
+    ],
+    image:
+    "/timeline4.jpg"
+  },
+  {
+    title: "Months 19-24: Building the Crescendo in Covid-19",
+    description: [
+      "Sanskriti, another character enters the GHA Media, now the Social Media Expert, bringing a fresh twist to the story.",
+      "We added 7 new members to our team -Sachin, Saurabh, Manvinder, Anjali, Arjun, Rahil and Devansh",
+      "Training programs sculpt each note, refining the team's virtuosity.",
+     "The tempo quickens, and delivery reaches a crescendo." ,
+      "Despite the uncertainties brought on by the global pandemic. GHA Media's entire team seamlessly transitions to remote work.",
+      "Adds 4 new clients to GHA Media during this challenging period."
+    ],
+    image:
+    "/timeline5.jpg"
+  },
+  {
+    title: "Months 31-36: The Techno Ballet",
+    description: [
+      "The latest tools pirouette into the agency's routine.",
+      "The team swells with two new talents - Karan [now the Project Manager & Lead Editor] and Adesh",
+      "New service features like Social Media Management & Short-form Video Editing [TikTok / Reels / YouTube Shorts] take centre stage."
+    ],
+    image:
+    "/timeline6.jpg"
+  },
+  {
+    title: "Months 37-42: Geographical Overture",
+    badge:"Year 4: Scaling the Symphony",
+    description: [
+      "Offices bloom in new locations, widening the agency's stage.",
+      "Strategic partnerships harmonize with other businesses in the field of medical coding [Odyssey Informatics]. ",
+      "Marketing crescendos reach a wider audience.",
+      "A new virtuoso takes the stage: Priyal, joining GHA Media now the Project Manager & Lead Motion Graphic Artist. "
+    ],
+    image:
+    "/timeline7.jpg"
+  },
+  {
+    title: "Months 43-48: The Orchestra Grows",
+    description: [
+      "A strategic partner DataStunt joins the ensemble: Nihit becomes part of GHA Media as the C.T.O., the mastermind behind all technological advancements.",
+      "Team expansion transforms the agency into a grand ensemble adding 4 new members to the team - Shivangi, Akriti, Venali, and Urvi.",
+      "Project management systems compose a smoother workflow.",
+      "Diversification of services becomes a symphony of client desires."
+    ],
+    image:
+    "/timeline8.jpg"
+  },
+  {
+    title: "Months 43-48: The Orchestra Grows",
+    badge:"Year 5: The Magnum Opus",
+    description: [
+      "Five years of standing ovations for GHA Media.",
+      "Reflections on the symphony's key movements and standing ovations.",
+      "A new crescendo in partnerships with Panchneeti, forging a strategic alliance that adds a harmonious cadence to the agency's journey. This collaboration not only enhances the agency's offerings, but also brings new clients into the GHA Media family, creating a richer and more diverse melody in the grand symphony of success.",
+      "Joining the ensemble, 3 new members - Ved, Aryan and Deepak [Creative Specialist] bring their unique skills to the agency's talent pool."
+    ],
+    image:
+    "/timeline9.jpg"
+  },
+  {
+    description: [
+      "Announcements resonate as the orchestra plays on.",
+      "Technological notes harmonize with future trends in video editing.",
+      "Commitment to excellence and client satisfaction, a melody for the next movement.",
+      "The team expands its composition once again as 8 new members joins - Ambrish, Niketan, Lakshay, Alfiya, Rachna, Nishtha, Dheerendra & Yesh [Graphic Designer Specialist], each adding their distinctive notes to the ensemble. GHA Media's crescendo of growth leads the way, fusing technology and a commitment to excellence for client satisfaction in every symphonic movement."
+    ],
+    image:
+    "/timeline10.jpg"
+  },
+  {
+    badge:"Year 6: Harmonizing Horizons",
+    title:"New Chapter Coming Soon in July of 2024!",
+    image: "/timeline11.jpg"
+  },
+];

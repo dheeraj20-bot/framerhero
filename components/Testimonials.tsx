@@ -16,7 +16,7 @@ export const Testimonials = () => {
 
   return (
     <main className=" relative py-40">
-            <div className="absolute top-10 h-[90rem]  backdrop-blur-lg blur-lg  rounded-3xl w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+            <div className="absolute top-10 h-[70rem]  px-3  rounded-3xl sm:rounded-t-[10rem] w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
 
      <div className=""></div>
         <div>
@@ -114,7 +114,7 @@ export const Testimonials = () => {
              </section>
              <div className=" w-full  px-2 mt-4 flex justify-start  sm:justify-center gap-10">
             <PrevSwiperButton/>
-            <div className=" swiper-pagination current  text-sm"></div>
+            <div className=" swiper-pagination  text-sm"></div>
             <SwiperButton/>
           </div>
          

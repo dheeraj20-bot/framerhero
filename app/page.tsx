@@ -19,6 +19,7 @@ export default function Home() {
           <OurWorkSection/>
           <WorkStep/>
           <Benefits/>
+          <BookaCall/>
           <PricingSection/>
           <FaqSection/>
     </main>

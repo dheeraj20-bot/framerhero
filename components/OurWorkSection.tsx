@@ -4,7 +4,7 @@ import { FadeUpStagger } from './FadeupText'
 
 const OurWorkSection = () => {
   return (
-    <main className='max-w-7xl flex flex-col items-center mx-auto px-4 py-10'>
+    <main className='max-w-7xl  flex flex-col items-center mx-auto px-4  py-32'>
       <div className=' text-center'>
      <FadeUpStagger/>
       </div>

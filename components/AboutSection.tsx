@@ -4,14 +4,15 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
 import { motion } from "framer-motion";
+import { Aboutus } from "@/data";
 
 
 
 export function AboutSection() {
   return (
     <TracingBeam className="px-6">
-      <div className="max-w-5xl mx-auto antialiased pt-4 relative">
-        {dummyContent.map((item, index) => (
+      <div className="max-w-5xl mx-auto  h-full antialiased pt-4 relative">
+        {Aboutus.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             {
               item.badge && (  <motion.h2   whileTap={{ scale: 0.8 }} className="bg-zinc-950 border-b-yellow-500 border-b cursor-pointer text-white rounded-full text-sm w-fit px-5 py-3 mb-4">
@@ -21,7 +22,7 @@ export function AboutSection() {
            
 
             <p className={twMerge( "text-2xl font-semibold bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent mb-4")}>
-              {item.title}
+              {item?.title}
             </p>
 
             <div className="text-sm   prose-sm dark:prose-invert">
@@ -40,7 +41,7 @@ export function AboutSection() {
                 
               )}
               {
-                item.description.map((list)=>(
+                item?.description?.map((list)=>(
                     <ul key={list} className=" ml-5 text-slate-300 list-disc  leading-loose text-sm sm:text-xl">
                         <li>{list}</li>
                     </ul>
@@ -54,26 +55,4 @@ export function AboutSection() {
   );
 }
 
-const dummyContent = [
-  {
-    title: "Dreaming into Reality",
-    badge: "Year 1 : The Genesis",
-    description: [
-        "GHA Media is born, a brainchild of Parth.",
-        "Seeds of On-Demand Video Editing Services planted from his Study Table.",
-        "First Client steps into the limelight for Video Editing magic.",
-        "Crafting the initial business symphony and service harmonies"
-    ],
-    image:
-    "/timeline1.jpg"
-  },
-  {
-    title: "Months 4-6: The Grand Unveiling",
-    description: [
-        "The digital curtain rises - GHA Media's website takes the stage.",
-        "The overture of brand identity plays, resonating through the online corridors."
-    ],
-    image:
-    "/timeline2.jpg"
-  },
-];
+

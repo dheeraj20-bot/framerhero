@@ -59,7 +59,7 @@ export const Hero = () => {
           </>
         }>
       <video autoPlay loop className="w-full h-full   shadow-2xl shadow-yellow-600 rounded-3xl" muted  width="320" height="240"  preload="none">
-      <source  src="video.mp4" type="video/mp4" />
+      <source  src="https://cdn.sanity.io/files/cylap7my/production/54697a65a959f6788fe314ac1f5af860c8080b44.webm" type="video/mp4" />
     </video>
       </ContainerScroll>
      </div>
