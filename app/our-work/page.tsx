@@ -3,13 +3,14 @@ import OurWork from "@/components/OurWork"
 
 const Work = () => {
   return (
-    <section className=" relative py-28 ">
+    <section className=" w-full  relative min-h-screen py-28 ">
       
-      <div className="absolute top-10 h-[90rem]   w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-         <div className="">
+     
+      <div className="absolute  top-10 h-[90rem] w-full
+       bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"/>
+          
           <FadeUpStagger/>
-         </div>
-           
+
            <div className="max-w-7xl  mx-auto py-20 px-4 sm:px-6 lg:px-8">
 
             <h2 className="text-5xl font-bold sticky ">2-D <span className="text-yellow-500">Animation</span></h2>
@@ -22,11 +23,6 @@ const Work = () => {
             <OurWork/>
             <OurWork/>
             <OurWork/>
-            <OurWork/>
-            <OurWork/>
-            <OurWork/>
-            <OurWork/>
-
          </div>
          </div>
           

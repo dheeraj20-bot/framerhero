@@ -15,6 +15,7 @@ export function FadeUpStagger() {
     ref={ref}
       initial="hidden"
       animate="show"
+      className="relative max-w-xl px-2 mx-auto"
       viewport={{ once: true }}
       variants={{
         hidden: {},
@@ -33,7 +34,7 @@ export function FadeUpStagger() {
         Our Work 
       </motion.h1>
       <motion.p
-        className="mt-6  text-center  text-lg text-slate-300 "
+        className="mt-6  text-center   text-lg text-slate-300 "
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
        Explore our latest projects and see how we bring ideas to life. We have edited 6,500+ videos for our clients
