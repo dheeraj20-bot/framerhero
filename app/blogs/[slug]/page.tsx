@@ -30,16 +30,19 @@ const getData = cache(async()=>{
 const BlogPage = async ({params:{slug}}:Props) => {
   const data:any = await getData()
   return (
-    <article className="px-3 antialiased   pt-10 overflow-hidden pb-28 max-w-4xl mx-auto">
+    <article className=" relative antialiased  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] 
+     pt-20 overflow-hidden pb-28  px-3 sm:px-[30rem] mx-auto">
+                {/* <div className="absolute top-10 h-[90rem]   w-full "></div> */}
+
   <section className="space-x-3 py-8 text-slate-900/95  dark:text-white sm:py-16">
-   <h1 className="text-4xl sm:text-5xl mb-10 font-bold">{data.title}</h1>
+   <h1 className="text-3xl sm:text-5xl mb-10 font-bold">{data.title}</h1>
     <div className="flex flex-row items-center gap-3">
     <Image
       className="rounded-full"
       src={urlFor(data?.author.image).url()}
       alt={data.title}
-      width={60}
-      height={60}
+      width={40}
+      height={40}
       priority
     />
     
@@ -62,9 +65,9 @@ const BlogPage = async ({params:{slug}}:Props) => {
 </section>
  
     <section >
-            <div className="overflow-hidden rounded-md">
+            <div className="overflow-hidden rounded-2xl">
             <Image
-            className=" w-full object-cover hover:scale-105 transition-all duration-300  h-full"
+            className=" w-full object-cover hover:scale-105  transition-all duration-300  h-full"
             src={urlFor(data?.mainImage).url()}
             alt={data.title}
             width={1000}

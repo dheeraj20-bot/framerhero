@@ -22,9 +22,9 @@ export const WorkStep = () => {
 
        <div className="w-full sm:py-[20vh] py-[30vh]">
        
-         <ul className="flex flex-col space-y-10 px-2 sm:px-0 ">
+         <ul className="flex flex-col  space-y-10 px-2 sm:px-0 ">
              {features.map((feature, index) => (
-                <li className=" border-b-teal-500  border-b py-2 sm:border-none" key={index}>
+                <li className=" py-2 flex flex-col-reverse sm:border-none" key={index}>
                  <WorkTitle id={feature.id}> <h2 className="sm:text-5xl  text-3xl font-semibold">{feature.title}</h2>
                  <span className="text-lg block mt-5 sm:mt-10">{feature.description}</span>
                   </WorkTitle>
@@ -33,9 +33,9 @@ export const WorkStep = () => {
                     <div className="relative">
                        <Image
                      src={feature.image}
-                     width={100}
-                     height={100}
-                     className="block sm:hidden w-44 h-44 rounded-2xl object-contain "
+                     width={1000}
+                     height={1000}
+                     className="block sm:hidden  rounded-2xl  "
                      alt="Bestie.png"
                      />
                        </div>

@@ -35,8 +35,10 @@ export default async function BlogPage({ searchParams,
   const posts = await getPosts()
  
   return (
-   <div className="overflow-x-hidden pt-24">
-     <div  className="px-3 py-6">
+   <div className="overflow-x-hidden relative h-screen w-full  pt-24">
+          <div className="absolute top-10 h-[90rem]   w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+
+     <div  className="px-3 relative py-6">
          <h1 className="text-3xl mb-2 text-center font-semibold lg:text-5xl">GHAMEDIA{" "}<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500">Blogs</span> </h1>
          <p></p>
       </div>
