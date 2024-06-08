@@ -17,21 +17,22 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://dheeraj-dun.vercel.app/'),
   title: 'GHA Media | Your Vision Our Edit ',
+  keywords: ['2d Animation Editing', 'Youtube video Shorts Editing', 'Video Editing in Canada'],
   description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
   openGraph: {
     title: 'GHA Media | Your Vision Our Edit ',
     siteName: 'GHA Media | Your Vision Our Edit ',
     url:"https://dheeraj-dun.vercel.app/",
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: 'https://dheeraj-dun.vercel.app/opengraph-image.png?2f1c2513b6da9af5'
+    images: '/opengraph-image.png?2f1c2513b6da9af5'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GHA Media | Your Vision Our Edit ',
     description: 'Your Vision Our Edit Seamless ExperienceOn-Demand Video Editing Support for Small Businesses and Content Creator',
-    images: 'https://dheeraj-dun.vercel.app/opengraph-image.png?2f1c2513b6da9af5'
+    images: '/opengraph-image.png?2f1c2513b6da9af5'
   }
 };
 
