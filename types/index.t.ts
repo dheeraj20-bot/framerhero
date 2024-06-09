@@ -87,3 +87,12 @@ interface Title {
     _type:"string";
     current:string
 }
+
+
+ interface Work {
+    videoUrl: string;
+    title: string;
+    categories: 'Promotional' | 'Corporate' | 'Social' | 'Youtube' | 'Event';
+  }
+  
+  

@@ -91,24 +91,28 @@ export const features = [
     title: "Tell us what you want ✨",
     id: "Tell",
     card: Tell,
+    image:"/tell.webp",
     description: "Provide clear instructions or a script for your desired video editing. You can also attach reference videos for inspiration."
   },
   {
     title: "Review your video - lightning fast! ⚡️",
     id: "Review",
     card: Review,
+    image:"/review.webp",
     description: "Get your expertly edited video back as quickly as the next day (depending on complexity)."
   },
   {
     title: "Need changes? We've got you covered! ",
     id: "Changes",
     card: Changes,
+    image:"/need.webp",
     description: "Unlimited revisions are included until you're absolutely satisfied with your final video."
   },
   {
     title: "Love it? Let's create more together! ",
     id: "Happy",
     card: Happy,
+    image:"/love.webp",
     description: "We're here to help you bring your video ideas to life, so come back anytime for more awesome edits!"
   }
 ];
@@ -167,39 +171,39 @@ export const benefits = [
 
 export const faqs = [
     {
-      question: "01. What Video Editing software do you use?",
+      question: "What Video Editing software do you use?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "02. How many Raw Footage can I submit?",
+      question: "How many Raw Footage can I submit?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "03. Do I get my Project Files too?",
+      question: "Do I get my Project Files too?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "04. Your Editors in-house, or Freelance??",
+      question: "Your Editors in-house, or Freelance??",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "05. Is there a minimum commitment?",
+      question: "Is there a minimum commitment?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "06. What's the commitment?",
+      question: "What's the commitment?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "07. Can you guys receive Templates?",
+      question: "Can you guys receive Templates?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "08. Do you guys also do assembly or partial edits?",
+      question: "Do you guys also do assembly or partial edits?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
     {
-      question: "09. Are your packages Truly Unlimited?",
+      question: "Are your packages Truly Unlimited?",
       answer: "Digital Publishing System adalah portal berbasis web yang menjembatani penerbit Kompas Gramedia dengan pengarang."
     },
    

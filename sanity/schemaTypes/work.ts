@@ -22,7 +22,7 @@ export default defineType({
       name: 'categories',
       title: 'Categories',
       type: 'string',
-      validation: (Rule: any) => Rule.required(),
+      validation: (Rule) => Rule.required(),
       options: {
         list: ['Promotional', 'Corporate', 'Social', 'Youtube', 'Event']
       }

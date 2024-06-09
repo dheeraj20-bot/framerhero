@@ -51,9 +51,10 @@ export const Hero = () => {
               <p className="text-center md:tracking-wider text-gray-400 mb-4 text-sm md:text-lg lg:text-2xl">
               On-Demand Video Editing Support for Small Businesses and Content Creator</p>
               <a href="#about">
-                <MagicButton title="Book a Call" icon={<FaLocationArrow/>}
-                position="right"
-                />
+              <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+  Book a Call
+</button>
+                
               </a>
         </div>
           </>

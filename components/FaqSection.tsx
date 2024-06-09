@@ -8,9 +8,10 @@ import { faqs } from "@/data"
   
   export function FaqSection() {
     return (
-      <main className=" max-w-7xl py-20 px-3 lg:px-10 mx-auto">
-        <h2 className=" text-3xl bg-clip-text text-transparent bg-gradient-to-b  from-slate-500 to-white sm:text-6xl font-semibold">Frequently asked <span className="text-yellow-500">questions</span></h2>
-        <Accordion type="single" collapsible className=" mx-auto mt-10">
+      <main className=" py-20 px-3 lg:px-10 mx-auto">
+        <h2 className=" text-4xl mb-5 text-center  sm:text-6xl font-semibold">Frequently asked <span className="text-yellow-500">questions</span></h2>
+         <p className="text-center bg-clip-text font-bold text-transparent bg-gradient-to-b  from-slate-500 to-white text-sm sm:text-lg">Need help with something? Here are some of the most common questions we get.         </p>
+        <Accordion type="single" collapsible className=" max-w-3xl mx-auto mt-10">
 
           {
           faqs.map((faq)=>(

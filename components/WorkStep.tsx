@@ -9,12 +9,12 @@ export const WorkStep = () => {
 
    <div className=" max-w-7xl mx-auto rounded-3xl px-5  ">
        
-              <div className="-mb-48 max-w-2xl mx-auto sm:mb-0">
+              <div className=" -mb-42 max-w-2xl mx-auto sm:mb-0">
 
             <h2 className=" text-center  text-transparent 
                bg-clip-text  bg-gradient-to-b  from-white to-gray-400 
              sm:mb-5 font-semibold text-4xl sm:text-6xl">Our Creative  <span className="text-yellow-500">Process</span></h2>
-    <p className="text-lg text-slate-300  text-center">Discover how we turn your vision into reality through a seamless 
+    <p className="text-lg text-slate-300  m text-center">Discover how we turn your vision into reality through a seamless 
      and innovative process that ensures excellence at every step.</p>
               </div>
 
@@ -36,7 +36,7 @@ export const WorkStep = () => {
                      width={1000}
                      height={1000}
                      className="block sm:hidden  rounded-2xl  "
-                     alt="Bestie.png"
+                     alt={feature.title}
                      />
                        </div>
                      )
