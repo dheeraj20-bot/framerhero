@@ -1,8 +1,10 @@
 import { Benefits } from "@/components/Benefits";
+import { BentoDemo } from "@/components/BentoGridSection";
 import { BookaCall } from "@/components/BookaCall";
 import { Clients } from "@/components/Clients";
 import { FaqSection } from "@/components/FaqSection";
 import { Hero } from "@/components/Hero";
+import { OrbitingCirclesSection } from "@/components/OrbitingCirclesSection";
 import OurWorkSection from "@/components/OurWorkSection";
 import PricingSection from "@/components/PricingSection";
 import { Testimonials } from "@/components/Testimonials";
@@ -20,6 +22,8 @@ export default function Home() {
           <WorkStep/>
           <Benefits/>
           <BookaCall/>
+          {/* <OrbitingCirclesSection/> */}
+          <BentoDemo/>
           <PricingSection/>
           <FaqSection/>
     </main>
