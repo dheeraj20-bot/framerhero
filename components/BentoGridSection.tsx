@@ -8,14 +8,11 @@ import {
   CommandList,
 } from "@/components/ui/command";
 import { cn } from "@/lib/utils";
-import AnimatedBeamSection from "@/components/AnimatedBeamSection";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-// import Marquee from "@/components/magicui/marquee";
 import { CalendarIcon, FileTextIcon, InputIcon } from "@radix-ui/react-icons";
 import { Share2Icon } from "lucide-react";
 import { AnimatedList } from "@/components/ui/animated-list";
-
-
+import AnimatedSection from "./AnimatedSection";
 
 interface Item {
   name: string;
@@ -143,7 +140,9 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <AnimatedBeamSection className="absolute right-2 top-4 h-[300px] w-[600px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+      <AnimatedSection 
+      className="absolute right-2 top-4 h-[300px] w-[600px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)]
+       group-hover:scale-105" />
     ),
   },
   {
@@ -163,7 +162,7 @@ const features = [
   },
 ];
 
-export function BentoDemo() {
+export function BentoGridSection() {
   return (
     <main className=" max-w-7xl mx-auto px-4  py-20 sm:px-6 lg:px-8"> 
     <div className="text-center mb-10 ">

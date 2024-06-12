@@ -1,5 +1,5 @@
 import { Benefits } from "@/components/Benefits";
-import { BentoDemo } from "@/components/BentoGridSection";
+import { BentoGridSection } from "@/components/BentoGridSection";
 import { BookaCall } from "@/components/BookaCall";
 import { Clients } from "@/components/Clients";
 import { FaqSection } from "@/components/FaqSection";
@@ -22,8 +22,7 @@ export default function Home() {
           <WorkStep/>
           <Benefits/>
           <BookaCall/>
-          {/* <OrbitingCirclesSection/> */}
-          <BentoDemo/>
+          <BentoGridSection/>
           <PricingSection/>
           <FaqSection/>
     </main>
