@@ -1,5 +1,5 @@
 import { Benefits } from "@/components/Benefits";
-import { BentoGridSection } from "@/components/BentoGridSection";
+import  {BentoGridSection}  from "@/components/BentoGridSection";
 import { BookaCall } from "@/components/BookaCall";
 import { Clients } from "@/components/Clients";
 import { FaqSection } from "@/components/FaqSection";

@@ -1,4 +1,5 @@
 import { Calendar } from "@/components/ui/calendar";
+
 import {
   Command,
   CommandEmpty,
@@ -12,7 +13,7 @@ import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { CalendarIcon, FileTextIcon, InputIcon } from "@radix-ui/react-icons";
 import { Share2Icon } from "lucide-react";
 import { AnimatedList } from "@/components/ui/animated-list";
-import AnimatedSection from "./AnimatedSection";
+// import AnimatedBeamSection from "./ui/AnimatedBeamSection";
 
 interface Item {
   name: string;
@@ -140,7 +141,9 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <AnimatedSection className="absolute right-2 top-4 h-[300px] w-[600px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+       <h1>
+        Hello
+       </h1> 
     ),
   },
   {
