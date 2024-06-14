@@ -13,7 +13,6 @@ import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { CalendarIcon, FileTextIcon, InputIcon } from "@radix-ui/react-icons";
 import { Share2Icon } from "lucide-react";
 import { AnimatedList } from "@/components/ui/animated-list";
-// import AnimatedBeamSection from "./ui/AnimatedBeamSection";
 
 interface Item {
   name: string;
@@ -171,7 +170,7 @@ export function BentoGridSection() {
     <p className="text-2xl text-gray-300">GHA Media is the best choice for your business. Here&apos;s why.</p>
     </div>
      
-         <BentoGrid>
+     <BentoGrid>
       {features.map((feature, idx) => (
         <BentoCard key={idx} {...feature} />
       ))}

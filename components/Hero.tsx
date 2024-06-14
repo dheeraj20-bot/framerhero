@@ -5,7 +5,7 @@ import { ContainerScroll } from "./ui/container-scroll-animation"
 
 export const Hero = () => {
   return (
-    <div className=" sm:max-w-7xl  py-3 sm:py-40 overflow-hidden w-full flex flex-col items-center justify-center mx-auto ">
+    <div id="hero" className=" sm:max-w-7xl  py-3 sm:py-40 overflow-hidden w-full flex flex-col items-center justify-center mx-auto ">
         {/* <div>
             <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="yellow"/>
             <Spotlight className="top-10 left-full  h-[80vh] w-[50vw]" fill="white"/>

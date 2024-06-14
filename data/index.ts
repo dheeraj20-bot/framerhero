@@ -20,7 +20,7 @@ export const clientImages = [
   ];
 
 export  const navItems = [
-    { name: "Home", url: "/" },
+    { name: "Home", url: "/#hero" },
     { name: "About", url: "/about" },
     { name: "Our Work", url: "/our-work" },
     { name: "Blogs", url: "/blogs" }
@@ -33,8 +33,6 @@ export  const navItems = [
       title: "Some Good News, Europe",
       image:"/Giuliano.png",
       
-      
-
   },
     {
         quote:"If you want a dynamic, forward-thinking and creative contractor to help your team with video production/editing, look no further than GHA Media. We have been working with them for a little over two years now and they are a HUGE addition to our team. They produces high quality YouTube/IGTV videos for us and is always forthcoming with feedback on how we can improve our raw video. We will work with them for a long time to come!",
@@ -70,7 +68,7 @@ export  const navItems = [
         image:"/Giuliano.png",  
     },
     {
-      quote: "GHA Media exceeds expectations of video editors. They are intuitive, creative, and artistic. They turns my beauty tutorial videos into engaging Youtube and IG ready content that stands out. I&apos;ve gotten many compliments from my customers and followers that the video introduction that they made is exceptional. I would highly recommend there talents to anyone looking for editors with there pulse on what&rsquo;s trending in online video content.",
+      quote: "GHA Media exceeds expectations of video editors. They are intuitive, creative, and artistic. They turns my beauty tutorial videos into engaging Youtube and IG ready content that stands out. I've gotten many compliments from my customers and followers that the video introduction that they made is exceptional. I would highly recommend there talents to anyone looking for editors with there pulse on what's trending in online video content.",
       name: "Meagan Carboney",
       title: "Jill Razor",
       image:"/Giuliano.png"

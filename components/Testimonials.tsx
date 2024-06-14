@@ -27,6 +27,7 @@ export const Testimonials = () => {
              
       <Swiper
       autoplay
+      
         pagination={{
           type: 'fraction',
           el:".swiper-pagination",
@@ -35,8 +36,8 @@ export const Testimonials = () => {
       }
         }}
         
-        modules={[Navigation,Pagination,Thumbs]}
-        className="  w-full rounded-lg"
+        modules={[Navigation,Thumbs]}
+        className="  w-full h-[50rem] rounded-lg"
         thumbs={{ swiper: thumbsSwiper }}
       >
 
@@ -109,21 +110,22 @@ export const Testimonials = () => {
             <div className="flex flex-col  items-start text-lg">
           <p>{testimonial.name}</p>
              <p className="text-slate-400">{testimonial.title}</p>
-        </div>
+            </div>
 
              </section>
-             <div className=" w-full  px-2 mt-4 flex justify-start  sm:justify-center gap-10">
+           
+             <div className=" w-full  px-2 mt-4 flex  justify-center gap-10">
             <PrevSwiperButton/>
             <div className=" swiper-pagination  text-sm"></div>
             <SwiperButton/>
           </div>
-         
 
         </div> 
                      </SwiperSlide>
                   ))
             }  
 
+      
       </Swiper>
 
       </main>
