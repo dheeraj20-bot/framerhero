@@ -16,13 +16,12 @@ export default function Home() {
       "> 
           <Hero/>
           <Clients/>   
-          {/* <BentoGridSection/>  */}
+          <BentoGridSection/> 
           <Testimonials/>
           <OurWorkSection/>
           <WorkStep/>
           <Benefits/>
           <BookaCall/>
-         
           <PricingSection/>
           <FaqSection/>
     </main>
