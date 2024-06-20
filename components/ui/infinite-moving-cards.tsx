@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className=" max-w-full relative flex items-center  hover:scale-105 transition-all duration-300 rounded-2xl border border-b-0 
-            flex-shrink-0 border-slate-900 bg-zinc-950 px-8 py-6 w-24 md:w-32"
+            flex-shrink-0 border-slate-900 bg-zinc-950 px-8 py-6   w-32 md:w-36"
             key={idx}
           >
                   <Image
@@ -95,7 +95,7 @@ export const InfiniteMovingCards = ({
                   alt={item.url}
                   width={100}
                   height={100}
-                  className=" relative  w-34 h-34  object-cover
+                  className=" relative   object-cover
                    transition-all duration-300"
                   />
           </li>

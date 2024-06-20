@@ -116,20 +116,7 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <Command className="absolute right-10 top-10 w-[70%] origin-top translate-x-0 border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:-translate-x-10">
-        <CommandInput placeholder="Type a command or search..." />
-        <CommandList>
-          <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Suggestions">
-            <CommandItem>screenshot.png</CommandItem>
-            <CommandItem>bitcoin.pdf</CommandItem>
-            <CommandItem>finances.xlsx</CommandItem>
-            <CommandItem>logo.svg</CommandItem>
-            <CommandItem>keys.gpg</CommandItem>
-            <CommandItem>seed.txt</CommandItem>
-          </CommandGroup>
-        </CommandList>
-      </Command>
+       <h1>hi</h1>
     ),
   },
   {
@@ -166,8 +153,8 @@ export function BentoGridSection() {
   return (
     <main className=" max-w-7xl mx-auto px-4  py-20 sm:px-6 lg:px-8"> 
     <div className="text-center mb-10 ">
-    <h2 className="text-6xl text-center mb-4 py-2 text-transparent  bg-gradient-to-b bg-clip-text from-slate-500 to-white font-bold tracking-tight">Why  <span className="text-yellow-500">GHA Media</span></h2>
-    <p className="text-2xl text-gray-300">GHA Media is the best choice for your business. Here&apos;s why.</p>
+    <h2 className="text-4xl sm:text-6xl text-center mb-4 py-2 text-transparent  bg-gradient-to-b bg-clip-text from-slate-500 to-white font-bold tracking-tight">Why  <span className="text-yellow-500">GHA Media</span></h2>
+    <p className=" text-xl sm:text-2xl text-gray-300">GHA Media is the best choice for your business. Here&apos;s why.</p>
     </div>
      
      <BentoGrid>

@@ -12,8 +12,8 @@ export const Clients = () => {
           mb-10 font-semibold text-4xl sm:text-6xl">Our Valued <span className="text-yellow-500">Clients</span></h2>
                 
         <div className=" max-w-7xl mx-auto">
-            <InfiniteMovingCards items ={clientImages.slice(0,5)} speed="slow" />
-            <InfiniteMovingCards items ={clientImages.slice(6)} direction="right" speed="slow" />
+            <InfiniteMovingCards items ={clientImages.slice(0,10)} speed="slow" />
+            <InfiniteMovingCards items ={clientImages.slice(10)} direction="right" speed="slow" />
         </div>
        
     </ >
