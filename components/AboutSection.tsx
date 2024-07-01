@@ -8,7 +8,7 @@ import { Aboutus } from "@/data";
 
 export function AboutSection() {
   return (
-    <TracingBeam className="px-6 overflow-hidden ">
+    <TracingBeam className="px-6 ">
       <div className="max-w-5xl mx-auto   antialiased pt-4 relative">
         {Aboutus.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
