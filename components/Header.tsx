@@ -5,7 +5,7 @@ import Link from "next/link"
 export const Header = () => {
   return (
     <div className="text-center py-5 border-b border-gray-600  fixed   flex  justify-between items-center px-2 sm:px-20 w-full z-50 backdrop-blur-2xl text-white">
-        <Link href="/#hero">
+        <Link href="/">
             <Image
             src="/logo.png"
             width={125}
@@ -17,7 +17,7 @@ export const Header = () => {
         <nav className="hidden sm:flex space-x-8">
           {
             navItems.map((item)=>(
-              <Link key={item.name} className="" href={item.url}>
+              <Link key={item.name} className=" font-semibold text-lg hover:text-yellow-500 duration-100 transition-all" href={item.url}>
                 {item.name}
               </Link>
             ))

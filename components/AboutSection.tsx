@@ -6,21 +6,18 @@ import { TracingBeam } from "./ui/tracing-beam";
 import { motion } from "framer-motion";
 import { Aboutus } from "@/data";
 
-
-
 export function AboutSection() {
   return (
-    <TracingBeam className="px-6 ">
+    <TracingBeam className="px-6 overflow-hidden ">
       <div className="max-w-5xl mx-auto   antialiased pt-4 relative">
         {Aboutus.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             {
-              item.badge && (  <motion.h2   whileTap={{ scale: 0.8 }} className="bg-zinc-950 border-b-yellow-500 border-b cursor-pointer text-white rounded-full text-sm w-fit px-5 py-3 mb-4">
+              item.badge && (  <motion.h2 whileTap={{ scale: 0.8 }} className="bg-zinc-950 border-b-yellow-500 border-b cursor-pointer text-white rounded-full text-sm w-fit px-5 py-3 mb-4">
                  {item.badge}
               </motion.h2>)
             }
            
-
             <p className={twMerge( "text-2xl font-semibold bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent mb-4")}>
               {item?.title}
             </p>

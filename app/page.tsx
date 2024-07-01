@@ -22,7 +22,6 @@ export default function Home() {
           <WorkStep/>
           <Benefits/>
           <BookaCall/>
-          <PricingSection/>
           <FaqSection/>
     </main>
   );

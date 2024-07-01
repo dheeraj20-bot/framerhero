@@ -1,5 +1,4 @@
 import { Changes, Happy, Review, Tell, Upload } from "@/components/ourwork/WorkCard";
-import { title } from "process";
 
 export const clientImages = [
     { name: "Brightside", url: "/clients/brightside.webp" },
@@ -27,9 +26,10 @@ export const clientImages = [
   ];
 
 export  const navItems = [
-    { name: "Home", url: "/#hero" },
+    { name: "Home", url: "/" },
     { name: "About", url: "/about" },
     { name: "Our Work", url: "/our-work" },
+    { name: "Pricing", url: "/pricing" },
     { name: "Blogs", url: "/blogs" }
   ];
 
@@ -164,13 +164,6 @@ export const benefits = [
     image:"/benefits/transperent pricing.webp"
 
   },
-  {
-    id:7,
-    "title": "Satisfaction Guarantee",
-    "descr": "We guarantee you'll love our editing services! Sign up today for a 14-day trial, and if you're not thrilled after 14 days, simply cancel and we'll refund your money. Start now with confidence!",
-    image:"/benefits/14 days guarante.webp"
-
-  }
 ]
 
 
@@ -215,54 +208,67 @@ export const faqs = [
 ]
 
 
-export const pricingPlans = [
+export const pricingPlans = 
+[
   {
-      title: "Basic",
-      price: "₹215.87",
-      billingCycle: "month",
-      billedAnnually: true,
-      save: "11%",
-      features: [
-          "Small reply boost",
-          "Encrypted direct messages",
-          "Bookmark folders",
-          "Highlights tab",
-          "Edit post",
-          "Post longer videos",
-          "Longer posts"
-      ]
+    "package": "Essentials",
+    "price": "$810 Monthly",
+    "guarantee": "14 Day Money Back",
+    "team": "Project Manager, Full-Time Video Editor",
+    "turnaround": "1-2 Business Days",
+    "revisions": "Unlimited",
+    "run_time": "Up to 59 Sec",
+    "assets": "Copyright-free",
+    "features": [
+      "24 Hour Revisions",
+      "Captions & Subtitles",
+      "Thumbnails",
+      "Motion Graphics",
+      "2D Animation*",
+      "Adobe Project Files*"
+    ]
   },
   {
-      title: "Premium",
-      price: "₹566.67",
-      billingCycle: "month",
-      billedAnnually: true,
-      save: "12%",
-      features: [
-          "Everything in Basic, and",
-          "Half Ads in For You and Following",
-          "Larger reply boost",
-          "Get paid to post",
-          "Checkmark",
-          "Grok Early Access",
-          "X Pro, Analytics, Media Studio",
-          "Creator Subscriptions"
-      ]
+    "package": "Pro",
+    "price": "$2140 Monthly",
+    "guarantee": "14 Day Money Back",
+    "team": "Project Manager, 2 Full-Time Video Editors, Creative Producer",
+    "turnaround": "2-3 Business Days",
+    "revisions": "Unlimited",
+    "run_time": "Unlimited",
+    "assets": "Copyright-free",
+    "features": [
+      "24 Hour Revisions",
+      "Captions & Subtitles",
+      "Thumbnails",
+      "Motion Graphics",
+      "Extra Add-Ons",
+      "2D Animation*",
+      "Adobe Project Files*"
+    ]
   },
   {
-      title: "Premium+",
-      price: "₹1,133.33",
-      billingCycle: "month",
-      billedAnnually: true,
-      save: "12%",
-      features: [
-          "Everything in Premium, and",
-          "No Ads in For You and Following",
-          "Largest reply boost",
-          "Write Articles"
-      ]
+    "package": "Enterprise",
+    "price": "$1401 Monthly",
+    "guarantee": "14 Day Money Back",
+    "team": "Project Manager, Full-Time Video Editor, Creative Producer",
+    "turnaround": "2-3 Business Days",
+    "revisions": "Unlimited",
+    "run_time": "Unlimited",
+    "assets": "Copyright-free",
+    "features": [
+      "24 Hour Revisions",
+      "Captions & Subtitles",
+      "Thumbnails",
+      "Motion Graphics",
+      "Extra Add-Ons",
+      "2D Animation*",
+      "Adobe Project Files*",
+      "Creative Producer*"
+    ]
   }
-];
+]
+
 
 // Example of using the map function to display plan titles
 
